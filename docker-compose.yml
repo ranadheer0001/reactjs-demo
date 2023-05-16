@@ -1,0 +1,8 @@
+version: '3'
+services:
+  web:
+    image: ranadheer0001/dev:latest
+    stdin_open: true
+    tty: true
+    ports:
+      - "80:3000"
